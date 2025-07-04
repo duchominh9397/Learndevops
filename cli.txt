@@ -1,4 +1,4 @@
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo "HOSTNAME: HominhDuc" > /home/duc.hominh/report-cp-duc.hominh.txt
+ubuntu@HoMinhDuc:/home/duc.hominh$ echo "HOSTNAME: $(hostname)">> /home/duc.hominh/report-cp-duc.hominh.txt
 ubuntu@HoMinhDuc:/home/duc.hominh$ echo "DATE REPORT: $(date)" >> /home/duc.hominh/report-cp-duc.hominh.txt
 ubuntu@HoMinhDuc:/home/duc.hominh$ echo -e "\nThong tin he thong cua thiet bi\n" >> /home/duc.hominh/report-cp-duc.hominh.txt
 ubuntu@HoMinhDuc:/home/duc.hominh$ echo "CPU Specs:" >> /home/duc.hominh/report-cp-duc.hominh.txt

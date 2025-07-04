@@ -1,4 +1,4 @@
-HOSTNAME: HominhDuc
+HOSTNAME: HoMinhDuc
 DATE REPORT: Fri Jul  4 22:22:26 +07 2025
 
 Thong tin he thong cua thiet bi
