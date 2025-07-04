@@ -1,0 +1,58 @@
+Save in (pwd): /home/ubuntu
+
+Hostname (hostnamectl): HoMinhDuc
+
+Date time (timedatectl): Fri 2025-07-04 13:40:11 UTC
+
+CPU Specs (lscpu): 
+CPU op-mode(s):                       32-bit, 64-bit
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Model name:                           Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+CPU family:                           6
+NUMA node0 CPU(s):                    0-7
+
+
+Hardware Spec:
+
+LSHW (lshw -short):
+H/W path  Device  Class      Description
+========================================
+                  system     Computer
+/0                bus        Motherboard
+/0/0              memory     8GiB System memory
+/0/1              processor  Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+/0/2              storage    Virtio 1.0 console
+/0/2/0            generic    Virtual I/O device
+/0/3              display    Basic Render Driver
+/0/4              display    Basic Render Driver
+/0/5              generic    Virtio file system
+/0/5/0            generic    Virtual I/O device
+/0/6              system     PnP device PNP0b00
+/1        eth0    network    Ethernet interface
+
+LSDEV (lsdev):
+Device            DMA   IRQ  I/O Ports
+------------------------------------------------
+acpi                      9 
+ACPI                         0000-0000 0000-0000 0000-0000 0000-0000
+cascade             4       
+dma                          0000-0000
+dma1                         0000-0000
+dma2                         0000-0000
+fpu                          0000-0000
+keyboard                     0000-0000 0000-0000
+pic1                         0000-0000
+pic2                         0000-0000
+rtc0                      8  0000-0000
+timer0                       0000-0000
+timer1                       0000-0000
+virtio0-config           24 
+virtio0-virtqueues         25 
+virtio1-config           26 
+virtio1-hiprio           27 
+virtio1-requests.0         28 
+
+Netwowrk Info: 
+IP Address (ip a): 172.27.81.180
+MAC ADDRESS (ip link show): 00:15:5d:a7:8a:c8
