@@ -1,0 +1,93 @@
+HOSTNAME: HominhDuc
+DATE REPORT: Fri Jul  4 22:22:26 +07 2025
+
+Thong tin he thong cua thiet bi
+
+CPU Specs:
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+CPU family:                           6
+Model:                                165
+Thread(s) per core:                   2
+Core(s) per socket:                   4
+Socket(s):                            1
+Stepping:                             2
+BogoMIPS:                             4992.01
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves vnmi md_clear flush_l1d arch_capabilities
+Virtualization:                       VT-x
+Hypervisor vendor:                    Microsoft
+Virtualization type:                  full
+L1d cache:                            128 KiB (4 instances)
+L1i cache:                            128 KiB (4 instances)
+L2 cache:                             1 MiB (4 instances)
+L3 cache:                             8 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-7
+Vulnerability Gather data sampling:   Unknown: Dependent on hypervisor status
+Vulnerability Itlb multihit:          KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Mitigation; Enhanced IBRS
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                  Unknown: Dependent on hypervisor status
+Vulnerability Tsx async abort:        Not affected
+
+Hardware Spec:
+H/W path    Device    Class      Description
+============================================
+                      system     Computer
+/0                    bus        Motherboard
+/0/0                  memory     8GiB System memory
+/0/1                  processor  Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+/0/2                  storage    Virtio 1.0 console
+/0/2/0                generic    Virtual I/O device
+/0/3                  display    Basic Render Driver
+/0/4                  display    Basic Render Driver
+/0/5                  generic    Virtio file system
+/0/5/0                generic    Virtual I/O device
+/0/6                  system     PnP device PNP0b00
+/0/7        scsi0     storage    
+/0/7/0.0.0  /dev/sda  volume     388MiB Virtual Disk
+/0/7/0.0.1  /dev/sdb  volume     186MiB Virtual Disk
+/0/7/0.0.2  /dev/sdc  volume     2GiB Virtual Disk
+/0/7/0.0.3  /dev/sdd  volume     1TiB Virtual Disk
+/0/7/0.0.4  /dev/sde  volume     1TiB Virtual Disk
+/1          eth0      network    Ethernet interface
+
+LSDEV:
+Device            DMA   IRQ  I/O Ports
+------------------------------------------------
+acpi                      9 
+ACPI                         0000-0000 0000-0000 0000-0000 0000-0000
+cascade             4       
+dma                          0000-0000
+dma1                         0000-0000
+dma2                         0000-0000
+fpu                          0000-0000
+keyboard                     0000-0000 0000-0000
+pic1                         0000-0000
+pic2                         0000-0000
+rtc0                      8  0000-0000
+timer0                       0000-0000
+timer1                       0000-0000
+virtio0-config           24 
+virtio0-virtqueues         25 
+virtio1-config           26 
+virtio1-hiprio           27 
+virtio1-requests.0         28 
+
+Network Info:
+IP Address: 172.27.81.180
+MAC: 00:15:5d:a7:8a:c8
