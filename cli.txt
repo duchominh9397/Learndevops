@@ -1,15 +1,14 @@
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo "HOSTNAME: $(hostname)">> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo "DATE REPORT: $(date '+%Y-%m-%d %H:%M:%S')">> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo -e "\nThong tin he thong cua thiet bi\n" >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo "CPU Specs:" >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ lscpu >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo -e "\nHardware Spec:" >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ sudo lshw -short>> /home/duc.hominh/report-cp-$(hostname).txt
-[sudo] password for ubuntu: 
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo -e "\nLSDEV:" >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ lsdev >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo -e "\nNetwork Info:" >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo -n "IP Address: " >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ hostname -I >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ echo -n "MAC: " >> /home/duc.hominh/report-cp-$(hostname).txt
-ubuntu@HoMinhDuc:/home/duc.hominh$ ip link show | grep 'link/ether' | awk '{print $2}' >> /home/duc.hominh/report-cp-$(hostname).txt
+echo "HOSTNAME: $(hostname)">> /home/duc.hominh/report-cp-$(hostname).txt
+echo "DATE REPORT: $(date '+%Y-%m-%d %H:%M:%S')">> /home/duc.hominh/report-cp-$(hostname).txt
+echo -e "\nThong tin he thong cua thiet bi\n" >> /home/duc.hominh/report-cp-$(hostname).txt
+echo "CPU Specs:" >> /home/duc.hominh/report-cp-$(hostname).txt
+lscpu >> /home/duc.hominh/report-cp-$(hostname).txt
+echo -e "\nHardware Spec:" >> /home/duc.hominh/report-cp-$(hostname).txt
+sudo lshw -short>> /home/duc.hominh/report-cp-$(hostname).txt
+echo -e "\nLSDEV:" >> /home/duc.hominh/report-cp-$(hostname).txt
+lsdev >> /home/duc.hominh/report-cp-$(hostname).txt
+echo -e "\nNetwork Info:" >> /home/duc.hominh/report-cp-$(hostname).txt
+echo -n "IP Address: " >> /home/duc.hominh/report-cp-$(hostname).txt
+hostname -I >> /home/duc.hominh/report-cp-$(hostname).txt
+echo -n "MAC: " >> /home/duc.hominh/report-cp-$(hostname).txt
+ip link show | grep 'link/ether' | awk '{print $2}' >> /home/duc.hominh/report-cp-$(hostname).txt
